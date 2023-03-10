@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400 & display=swap');
+
+*{ 
+  text-align: center;
+  text-decoration: none;
+  outline: 0;
+  line-height: 1.5;
+}
+
+.main {
+  display: inline-block;
+  padding: 50px 70px;
+  margin-top: 20ch;
+  border: 0.5px solid;
+  border-radius: 5px;
+  background-color: lightgray;
+  border-style: inherit;
+}
+
+#logo img {
+  border-radius: 50%;
+  margin-top: 2ch;
+}
+
+.namebar {
+  font-size: 35px;
+  margin-bottom: -5px;
+}
+
+i {
+  font-size: 15px;
+  margin-right: 5px;
+  color: #2E4F4F;
+}
+
+label {
+  font-size: 20px;
+  color: #0E8388;
+}
+
+.main input {
+  height: 4ch;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sign-in-part input {
+  width: 45%;
+  background: #B3005E;
+  color: #E8E2E2;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  font-size: 15px;;
+}
+
+.other-part {
+  font-style: italic;
+  font-weight: 1000;
+}
